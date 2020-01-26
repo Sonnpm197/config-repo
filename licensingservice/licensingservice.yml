@@ -5,6 +5,7 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.SQLServer2012Dia
 spring.datasource.url: "jdbc:sqlserver://localhost:1433;databaseName=SMIA;characterEncoding=UTF-8"
 spring.datasource.username: "sa"
 spring.datasource.password: "{cipher}3051969fa16235abdf2fcb9006ac2c780a6091f8b89bd361c10e50d3deffc285"
+spring.jpa.hibernate.ddl-auto: "update"
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
