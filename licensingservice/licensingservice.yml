@@ -1,6 +1,4 @@
 example.property: "I AM IN THE DEFAULT"
-spring.jpa.database: "POSTGRESQL"
-spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
 spring.datasource.url: "jdbc:log4jdbc:sqlserver://localhost:1433;databaseName=SMIA;characterEncoding=UTF-8"
